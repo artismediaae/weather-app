@@ -12,7 +12,6 @@ const ApiKey = "87b6b6b90582c13db27984d4deb3185a"
 
 
 
-/*
 rl.question('Enter a city: ', (location) => {
     const url = `http://api.weatherstack.com/forecast?access_key=${ApiKey}&query=${location}`
     request({ url: url, json: true }, (error, response) => {
@@ -30,9 +29,10 @@ rl.question('Enter a city: ', (location) => {
         rl.close()
     })
 })
-*/
+
 
 // Future use: Mapbox API integration
+
 
 const mapboxApiKey = "pk.eyJ1IjoiYXJ0aXNtZWRpYWUiLCJhIjoiY202ZHoyeGJsMTFkbDJqcXp0czNmdHYyaiJ9.qMifiK_o4QLryFzBLM7iKg"
 
